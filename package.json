@@ -79,7 +79,7 @@
     "@playwright/test": "^1.58.2",
     "aws-cdk": "^2.1114.1",
     "eslint": "^10.1.0",
-    "eslint-plugin-security": "^4.0.0",
+    "eslint-plugin-security": "^4.0.1",
     "exceljs": "^4.4.0",
     "globals": "^17.4.0",
     "http-server": "^14.1.1",
