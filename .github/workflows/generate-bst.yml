@@ -97,7 +97,7 @@ jobs:
         run: node app/bin/generate.js --skip-guide --years ${{ matrix.year }}
 
       - name: Upload generated package
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: package-${{ matrix.year }}
           retention-days: 1
