@@ -24,6 +24,16 @@
 - If no plan file exists for the current work, create one before starting
 - Never nest plans in subdirectories — always project root
 
+## Skills
+
+This repo is do-not-develop (archive). Skills live at `.claude/skills/<name>/SKILL.md`, each with
+a gitignored root symlink (`SKILL_<NAME>.md`) for convenience:
+
+- `.claude/skills/plain-prose/SKILL.md` — writing rules for plain, human prose; follow this for
+  all human-facing text (docs, comments, chat)
+- `.claude/skills/do-next/SKILL.md` — notes this repo's do-not-develop status before any
+  `NEXT.md`-driven dispatch
+
 ## Quick Reference
 
 This repository manages the **spreadsheets AWS account** (064390746177) for spreadsheets.diyaccounting.co.uk:
