@@ -80,7 +80,7 @@ jobs:
       - name: Build sitemaps
         run: node scripts/build-sitemaps.cjs
 
-      - uses: actions/setup-java@v5
+      - uses: actions/setup-java@v6
         with:
           distribution: 'temurin'
           java-version: ${{ env.JAVA_VERSION }}
