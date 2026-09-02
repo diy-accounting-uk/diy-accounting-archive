@@ -5,7 +5,7 @@
 # sha256 of the sorted "<sha256 of file>  <relative path>" lines for that package directory.
 
 source_repo = "diy-accounting-uk/spreadsheets.diyaccounting.co.uk"
-package_count = 112
+package_count = 119
 
 [[packages]]
 dir = "GB Accounts Basic Sole Trader 2021-04-05 (Apr21) Excel 2007"
@@ -914,6 +914,76 @@ product = "Company"
 files = 16
 bytes = 5175578
 digest = "f96088dace06737fb4f314edb81a219bf24465fdae17546ac211845d0169e793"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-04-30 (Apr27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975939
+digest = "3134e43797609b8ae621827cffbb8f659c25991c31ddcc6bd9982b4ebb2695cb"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-05-31 (May27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975882
+digest = "93abb804e0e2a31dfafca995c4a825a1e34ec70421023931003ba772deec2223"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-06-30 (Jun27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975983
+digest = "57363dce45d4968fbb41b139bd46ba214b958c43841b86ce22b2f50aad4e4db4"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-07-31 (Jul27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975936
+digest = "bf65ac582ef46bf61fc0e46995e7cf2c3935b3f8856b9821fc496025a2e11d74"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-08-31 (Aug27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975922
+digest = "1c147aeed432a09b698d5dac4cd24d60d3358b912ff97007b1a73e0c6ebf24d1"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-09-30 (Sep27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975885
+digest = "51c12ded1fe54cae876918f7eb1b1be198c142006386aa9dbf07255e6397ff4e"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2027-10-31 (Oct27) Excel 2007"
+tax_year = "2027-28"
+product = "Company"
+files = 16
+bytes = 4975940
+digest = "399bb0a244c3553d6e45dc99d0dbd9ca77c15f46706083af5ca8282f5197fb50"
 source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
 
