@@ -18,6 +18,14 @@ develop THERE, not here.
 - The business corpus indexes this repo **commits-only** (its file content is superseded by the
   live spreadsheets repo).
 
+## `packages-published/`
+
+Holds cuts of the live package catalogue, taken by hand from
+`../spreadsheets.diyaccounting.co.uk` — see that repo's `PLAN_PACKAGES_TO_ARCHIVE.md` and
+`.claude/skills/archive-packages/SKILL.md` for the procedure. Do not develop here and do not
+edit `MANIFEST.toml` by hand; it is written by `archive-packages.js` and checked by its
+`--verify` mode.
+
 ## Skills
 
 Skills live at `.claude/skills/<name>/SKILL.md`, each with a gitignored root symlink
