@@ -5,7 +5,7 @@
 # sha256 of the sorted "<sha256 of file>  <relative path>" lines for that package directory.
 
 source_repo = "diy-accounting-uk/spreadsheets.diyaccounting.co.uk"
-package_count = 64
+package_count = 80
 
 [[packages]]
 dir = "GB Accounts Basic Sole Trader 2021-04-05 (Apr21) Excel 2007"
@@ -44,6 +44,16 @@ product = "Basic Sole Trader"
 files = 2
 bytes = 2645064
 digest = "d53c702c780404944984d342652415cd7206ac993cc312f2cec8959594ebd9bf"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Basic Sole Trader 2025-04-05 (Apr25) Excel 2007"
+tax_year = "2024-25"
+product = "Basic Sole Trader"
+files = 2
+bytes = 2645059
+digest = "523a6708f0f0529a99d070603a31d7f8a3022efed493cf6fab9faef4d13998e0"
 source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
 
@@ -528,6 +538,126 @@ source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
 
 [[packages]]
+dir = "GB Accounts Company 2024-04-30 (Apr24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975914
+digest = "14fe9b658ea743ea97c25e12c638dd3cd9ace028705b7f746412bf3a552bb616"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-05-31 (May24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975863
+digest = "487a617b994bfc12bce941049715e984e7dec7827004aa7ce3c85026da71a610"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-06-30 (Jun24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975959
+digest = "906adc72f70ad55fb9920ac4a53fdefead94066b64a41ce55045d8919588c82b"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-07-31 (Jul24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975915
+digest = "1a51eb3b27847d091000b848006bd36555996d4daadc7c760524e7d4bd578666"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-08-31 (Aug24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975913
+digest = "6bd39878e9c204b6574b7bef236cc49d696d2fe6091714ac894ac95282477c47"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-09-30 (Sep24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975879
+digest = "459e6d0e9ad70279533652459bfa24c9e96c6b63846718907869ad06dd9a0bbf"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-10-31 (Oct24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975932
+digest = "4eda96a05c764c4ca1a8229d69e439184c142b639eb72a13abbf68874d9b1597"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-11-30 (Nov24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975929
+digest = "c86c6daa88a9cc689493e35f465221e582c654a1bb6beeb2ce30f21cf8605a2a"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2024-12-31 (Dec24) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975912
+digest = "62a2967e913ad208e153a4b6cedf4392d3bfaf680f2e5dae54efd15534629b81"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2025-01-31 (Jan25) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975911
+digest = "a901758f9d9057e084053a2ac5c648f9acfecb01f3521294d411bed1ab88eb09"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2025-02-28 (Feb25) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 4975891
+digest = "9b08a90996e0c43304a49d5f20e5c71dcbb05ae9bbcb2b84821af154685c1036"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2025-03-31 (Mar25) Excel 2007"
+tax_year = "2024-25"
+product = "Company"
+files = 16
+bytes = 5175582
+digest = "d47b5927a687547bd5a76c251744e74262433607caa29ad2e9847bacb0034278"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
 dir = "GB Accounts Payslip 05 2021-04-05 (Apr21) Excel 2007"
 tax_year = "2020-21"
 product = "Payslip 05"
@@ -564,6 +694,16 @@ product = "Payslip 05"
 files = 2
 bytes = 318616
 digest = "8291e0e458e61578b7b5962d2df5f7154ff4f0fe85a863ffdbaafe613dcbacbc"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Payslip 05 2025-04-05 (Apr25) Excel 2007"
+tax_year = "2024-25"
+product = "Payslip 05"
+files = 2
+bytes = 318657
+digest = "bae07f63c1af2507fd88ba3b4db0429fae0c8c73e46502f9eb45c6e9acf52fac"
 source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
 
@@ -608,6 +748,16 @@ source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
 
 [[packages]]
+dir = "GB Accounts Self Employed 2025-04-05 (Apr25) Excel 2007"
+tax_year = "2024-25"
+product = "Self Employed"
+files = 11
+bytes = 3604747
+digest = "47581584040e7793dbd9d1bdf85dc468412117eb3793a26ed1dd8c64610c6aca"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
 dir = "GB Accounts Taxi Driver 2021-04-05 (Apr21) Excel 2007"
 tax_year = "2020-21"
 product = "Taxi Driver"
@@ -644,5 +794,15 @@ product = "Taxi Driver"
 files = 2
 bytes = 2781848
 digest = "9cf632849481563e470ea0a8df434fe26c5c090e741c9810d343c24269430fa1"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Taxi Driver 2025-04-05 (Apr25) Excel 2007"
+tax_year = "2024-25"
+product = "Taxi Driver"
+files = 2
+bytes = 2781831
+digest = "4c2a610737b3d3f2240dd779efbd4e86704cea3ed3f75976c733d099774264cb"
 source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
 cut = "2026-09-02"
