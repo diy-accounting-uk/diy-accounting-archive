@@ -1,0 +1,168 @@
+# Provenance for the packages under this directory.
+# Written by scripts/archive-packages.js in the spreadsheets repository. Do not edit by hand.
+#
+# Each entry names the spreadsheets-repo commit its files were generated at. digest is the
+# sha256 of the sorted "<sha256 of file>  <relative path>" lines for that package directory.
+
+source_repo = "diy-accounting-uk/spreadsheets.diyaccounting.co.uk"
+package_count = 16
+
+[[packages]]
+dir = "GB Accounts Basic Sole Trader 2021-04-05 (Apr21) Excel 2007"
+tax_year = "2020-21"
+product = "Basic Sole Trader"
+files = 2
+bytes = 2645059
+digest = "7a323eef260c58bddc4785a233c54a47a85509995af961924dba0e8678569022"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-04-30 (Apr20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975894
+digest = "226d2ec764dec068e40fcfcc0e3a089518a94ade1ec9297f9caa456d7058171a"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-05-31 (May20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975855
+digest = "369e6f3906f5c4687320fcc324fd709c9977cfa0e01abde34a7b8e7133e911bd"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-06-30 (Jun20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975943
+digest = "159297ae456b08cacb27e28e4308618ba9e27a10158dde1f15a153060245356d"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-07-31 (Jul20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975900
+digest = "bb84671a130accac2b264ea02bd02f6156464029625643323ce698325be43f83"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-08-31 (Aug20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975898
+digest = "6f301cd1e34e8e8bd8fb4844334f22279d41f0999cd70b51df5aeb6c1f3457a0"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-09-30 (Sep20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975855
+digest = "03864091df6ac640e6ce9b5e97cd1a38f5a2a9c2da2aec0986c956107f204929"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-10-31 (Oct20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975909
+digest = "86702e7f005ec1c724f5b4d8f303b538a34a8498c7f445f13fdaf930ad3bfbf7"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-11-30 (Nov20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975899
+digest = "0a3af27d74669249735562dd591928ab0b2cb9281fecbfc6442656a38f9459dc"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2020-12-31 (Dec20) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975895
+digest = "6cb8cc98461983274ef040d75f461ced8983c15365e265d64236c8aade73e160"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2021-01-31 (Jan21) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975904
+digest = "daad557f7637d57514e794c86e7c9b5c9b00a58ac83f0ddc8c42660cfdbfead2"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2021-02-28 (Feb21) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 4975870
+digest = "528d83f8fafac4526db121063afb6b134ec40bb21cdcfe9d0c53b6d509537323"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Company 2021-03-31 (Mar21) Excel 2007"
+tax_year = "2020-21"
+product = "Company"
+files = 16
+bytes = 5175588
+digest = "b9ca7958dd298da917822e5a0e18513879a4fc280cf245d04748ceacfab682e6"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Payslip 05 2021-04-05 (Apr21) Excel 2007"
+tax_year = "2020-21"
+product = "Payslip 05"
+files = 2
+bytes = 318649
+digest = "cfb07113ddcb714822c3d596596887d15ad1c694a671aacc334c7b95472350e7"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Self Employed 2021-04-05 (Apr21) Excel 2007"
+tax_year = "2020-21"
+product = "Self Employed"
+files = 11
+bytes = 3604742
+digest = "e84021a00af8aac04d3a2e202aa810090f0d6e843d512b7d8dd659bee44d55e8"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
+
+[[packages]]
+dir = "GB Accounts Taxi Driver 2021-04-05 (Apr21) Excel 2007"
+tax_year = "2020-21"
+product = "Taxi Driver"
+files = 2
+bytes = 2781843
+digest = "1f098f377efe07ccbcb41561dea999841be27dcb591e8456bc024820cd404f00"
+source_sha = "d58d59a2891f119508c8295fe62b00156578b9a6"
+cut = "2026-09-02"
