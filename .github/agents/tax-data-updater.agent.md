@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0 -->
+<!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
+
 ---
 name: Tax Data Updater
 description: Research current HMRC tax rates, update SOURCES.md, create new app/data TOML files, and generate a traceability report.
