@@ -1,6 +1,6 @@
-// SPDX-License-Identifier: AGPL-3.0-only
-// Copyright (C) 2026 DIY Accounting Ltd
-//
+// SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0
+// Copyright (C) 2006-2026 DIY Accounting Limited
+
 // generator.js — Core spreadsheet generation via zip-level XML surgery.
 // Modifies only specific cell values in the Admin sheet XML, preserving all
 // formatting, charts, conditional formatting, and XML packaging.

@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-// SPDX-License-Identifier: AGPL-3.0-only
-// Copyright (C) 2025-2026 DIY Accounting Ltd
-
+// SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0
+// Copyright (C) 2006-2026 DIY Accounting Limited
 /**
  * Generates knowledge-base.toml from the diy-accounting-mdcms content directory.
  * Reads all *Article.md files, extracts metadata, converts HTML to markdown,
@@ -393,8 +391,8 @@ if (!fs.existsSync(ARTICLES_DIR)) {
 }
 
 // Generate TOML index (lightweight: no full answer, just short description)
-let toml = `# SPDX-License-Identifier: AGPL-3.0-only
-# Copyright (C) 2025-2026 DIY Accounting Ltd
+let toml = `# SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0
+# Copyright (C) 2006-2026 DIY Accounting Limited
 
 # DIY Accounting Spreadsheets Knowledge Base - Index
 # Generated from diy-accounting-mdcms/content/ articles

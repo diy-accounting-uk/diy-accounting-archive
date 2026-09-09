@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0
+// Copyright (C) 2006-2026 DIY Accounting Limited
+
 /* community-page.js — Fetches and renders GitHub Discussions */
 (function () {
   "use strict";
@@ -9,7 +12,7 @@
   const CACHE_KEY = "diy-community-discussions";
   const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
   const API_URL =
-    "https://api.github.com/repos/support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/discussions?per_page=30&sort=updated&direction=desc";
+    "https://api.github.com/repos/diy-accounting-uk/diy-accounting-archive/discussions?per_page=30&sort=updated&direction=desc";
   let allDiscussions = [];
 
   function relativeDate(dateStr) {
@@ -180,7 +183,7 @@
   function showError() {
     container.innerHTML =
       '<p class="no-results">Unable to load discussions. ' +
-      '<a href="https://github.com/support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/discussions" target="_blank" rel="noopener noreferrer">' +
+      '<a href="https://github.com/diy-accounting-uk/diy-accounting-archive/discussions" target="_blank" rel="noopener noreferrer">' +
       "View discussions on GitHub</a></p>";
   }
 

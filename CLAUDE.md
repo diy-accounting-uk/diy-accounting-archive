@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0 -->
+<!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
 # Claude Code Memory - diy-accounting-archive
 
 > **Shared conventions** (git workflow, code quality, confirm behavior, security): See `../CLAUDE.md`

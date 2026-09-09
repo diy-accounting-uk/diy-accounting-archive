@@ -1,34 +1,33 @@
+<!-- SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0 -->
+<!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
 # spreadsheets.diyaccounting.co.uk
 
 Spreadsheet download site for [DIY Accounting](https://spreadsheets.diyaccounting.co.uk) — free Excel bookkeeping spreadsheets for UK sole traders, self-employed, and small companies.
 
 # diy-accounting
 
-This is the home of DIY Accounting's community edition spreadsheet based packages. Formerly, these DIY Accounting
-spreadsheets were distributed as a set of proprietary products, owned by DIY Accounting Limited and created by
-Terry Cartwright in the early 2000s. The spreadsheets are now Open Source and released under the Mozilla Public
-License Version 2.0. See: https://www.mozilla.org/en-US/MPL/2.0/
+This is a historical archive of DIY Accounting's spreadsheet packages. The source is available and the spreadsheets
+are free to use for your own accounts or your clients' accounts if you are an accountant or bookkeeper.
+Do not redistribute the spreadsheets. See the LICENSE file for the full terms.
 
 # The relationship to DIY Accounting Limited
 
 https://www.diyaccounting.co.uk/
 
-DIY Accounting Limited continues to maintain these packages and remains a for-profit company. DIY Accounting Limited
-shall be releasing new proprietary products in the future and if you wish to help with our running costs while we do
-this, you can click the sponsor link above or send a donation here:
+DIY Accounting Limited continues to maintain this archive. If you wish to help with running costs,
+you can send a donation here:
 https://www.paypal.com/donate/?hosted_button_id=XTEQ73HM52QQW
 
 # Getting help with DIY Accounting
 
-As proprietary software support was supplied by email and staffed part-time. There is no longer a support service and
-users are encouraged to start a discussion here: https://github.com/support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/discussions or raise
-an issue here https://github.com/support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/issues .
+Support for this archive is provided through GitHub. Start a discussion here: https://github.com/diy-accounting-uk/diy-accounting-archive/discussions or raise
+an issue here https://github.com/diy-accounting-uk/diy-accounting-archive/issues .
 
 ## Architecture
 
 - **AWS CDK** (Java) deploys an S3 + CloudFront static site with OAC
 - **CloudFront Function** handles URL redirects from the old www site (generated from `redirects.toml`)
-- **DNS** is managed separately by the [root.diyaccounting.co.uk](https://github.com/support-at-diyaccounting/root.diyaccounting.co.uk) repository
+- **DNS** is managed separately by the [root.diyaccounting.co.uk](https://github.com/diy-accounting-uk/root.diyaccounting.co.uk) repository
 - **Account**: spreadsheets (`064390746177`) in the DIY Accounting AWS Organization
 
 ## Quick Start
@@ -123,9 +122,9 @@ OIDC authentication with `SPREADSHEETS_ACTIONS_ROLE_ARN` and `SPREADSHEETS_DEPLO
 
 | Repository | Purpose |
 |-----------|---------|
-| [root.diyaccounting.co.uk](https://github.com/support-at-diyaccounting/root.diyaccounting.co.uk) | Route53 DNS records |
-| [submit.diyaccounting.co.uk](https://github.com/support-at-diyaccounting/submit.diyaccounting.co.uk) | Submit VAT MTD application |
+| [root.diyaccounting.co.uk](https://github.com/diy-accounting-uk/root.diyaccounting.co.uk) | Route53 DNS records |
+| [submit.diyaccounting.co.uk](https://github.com/diy-accounting-uk/submit.diyaccounting.co.uk) | Submit VAT MTD application |
 
 ## License
 
-AGPL-3.0-only. Copyright (C) 2025-2026 DIY Accounting Ltd.
+LicenseRef-PolyForm-Internal-Use-1.0.0, plus an additional grant for accountants and bookkeepers. Copyright (C) 2006-2026 DIY Accounting Limited. See LICENSE for details.

@@ -1,6 +1,6 @@
 /*
- * SPDX-License-Identifier: AGPL-3.0-only
- * Copyright (C) 2025-2026 DIY Accounting Ltd
+ * SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0
+ * Copyright (C) 2006-2026 DIY Accounting Limited
  */
 
 package co.uk.diyaccounting.spreadsheets.stacks;
@@ -119,10 +119,10 @@ public class SpreadsheetsStack extends Stack {
 
         // Apply cost allocation tags
         Tags.of(this).add("Environment", props.envName());
-        Tags.of(this).add("Application", "@support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/spreadsheets");
-        Tags.of(this).add("CostCenter", "@support-at-diyaccounting/spreadsheets.diyaccounting.co.uk");
-        Tags.of(this).add("Owner", "@support-at-diyaccounting/spreadsheets.diyaccounting.co.uk");
-        Tags.of(this).add("Project", "@support-at-diyaccounting/spreadsheets.diyaccounting.co.uk");
+        Tags.of(this).add("Application", "@diy-accounting-uk/diy-accounting-archive/spreadsheets");
+        Tags.of(this).add("CostCenter", "@diy-accounting-uk/diy-accounting-archive");
+        Tags.of(this).add("Owner", "@diy-accounting-uk/diy-accounting-archive");
+        Tags.of(this).add("Project", "@diy-accounting-uk/diy-accounting-archive");
         Tags.of(this).add("Stack", "SpreadsheetsStack");
         Tags.of(this).add("ManagedBy", "aws-cdk");
         Tags.of(this).add("BillingPurpose", "spreadsheets-static-site");
