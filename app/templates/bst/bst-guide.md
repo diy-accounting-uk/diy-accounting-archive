@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0 -->
+<!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
 # DIY Accounting Basic Sole Trader User Guide
 
 Thank you for using DIY Accounting as your accounting system.
@@ -313,9 +315,9 @@ Generally HMRC do not like claims being made by self-employed businesses in resp
 
 Our website is the first place to look for any information: https://spreadsheets.diyaccounting.co.uk/
 
-DIY Accounting's spreadsheet packages are maintained and supported under an Open Source model. In return for allowing anyone access to our source files, we find an indefinite low-cost home at GitHub. We continue to keep the website up with downloads for up-to-date packages. This model relies upon community support (an online forum) and accepting donations instead of retaining paid staff and charging a fee.
+DIY Accounting's spreadsheet packages are free to use, the source is available, and you may use them for your own accounts or your clients' accounts if you are an accountant or bookkeeper. Packages are maintained with community support and donations.
 
-Please raise a question in our discussion forum here: https://github.com/support-at-diyaccounting/spreadsheets.diyaccounting.co.uk/discussions
+Please raise a question in our discussion forum here: https://github.com/diy-accounting-uk/diy-accounting-archive/discussions
 
 Or donate to help keep the packages updated here: https://www.paypal.com/donate/?hosted_button_id=XTEQ73HM52QQW
 

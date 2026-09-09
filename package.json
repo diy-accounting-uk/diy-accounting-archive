@@ -1,9 +1,10 @@
 {
-  "name": "@support-at-diyaccounting/spreadsheets-diyaccounting-co-uk",
+  "name": "@diy-accounting-uk/diy-accounting-archive",
   "version": "1.0.0",
   "type": "module",
   "description": "Spreadsheets download site for spreadsheets.diyaccounting.co.uk",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "prestart": "node scripts/build-packages.cjs --years 2 && ln -sfn ../../../target/zips web/spreadsheets.diyaccounting.co.uk/public/zips",
     "start": "npx http-server web/spreadsheets.diyaccounting.co.uk/public -p 3000",

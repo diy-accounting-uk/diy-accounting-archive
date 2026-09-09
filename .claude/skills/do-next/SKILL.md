@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: LicenseRef-PolyForm-Internal-Use-1.0.0 -->
+<!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
 ---
 name: do-next
 description: Dispatch this repo's NEXT.md open items, if any exist, as worktree-isolated coordinator sub-agents. Invoke when the operator says "do next" or "work the backlog" — but check this repo's do-not-develop status first (see below) before dispatching any coding track.
