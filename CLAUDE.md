@@ -2,7 +2,7 @@
 <!-- Copyright (C) 2006-2026 DIY Accounting Limited -->
 # Claude Code Memory - diy-accounting-archive
 
-> **Shared conventions** (git workflow, code quality, confirm behavior, security): See `../CLAUDE.md`
+> **Shared conventions** (git workflow, code quality, confirm behavior, security, commit attribution): See `../CLAUDE.md`
 
 ## What this repository is
 
