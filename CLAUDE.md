@@ -10,7 +10,7 @@ The **archived pre-migration spreadsheets repository** — the historical record
 Accounting's Excel package catalogue and its generation pipeline as it stood before the
 May 2026 migration to the `diy-accounting-uk` org. The live successor is
 `../spreadsheets.diyaccounting.co.uk` (repo `diy-accounting-uk/spreadsheets.diyaccounting.co.uk`);
-develop THERE, not here.
+develop THERE, not here (`orient-spreadsheets`).
 
 - **Do not develop here.** This repo is an archive by convention (the GitHub `archived` flag is
   deliberately not set — the operator manages it as history-plus-occasional-regeneration rather
@@ -23,8 +23,7 @@ develop THERE, not here.
 ## `packages-published/`
 
 Holds cuts of the live package catalogue, taken by hand from
-`../spreadsheets.diyaccounting.co.uk` — see that repo's `PLAN_PACKAGES_TO_ARCHIVE.md` and
-`.claude/skills/archive-packages/SKILL.md` for the procedure. Do not develop here and do not
+`../spreadsheets.diyaccounting.co.uk`; invoke `orient-spreadsheets` for the procedure. Do not develop here and do not
 edit `MANIFEST.toml` by hand; it is written by `archive-packages.js` and checked by its
 `--verify` mode.
 
@@ -36,6 +35,16 @@ Skills live at `.claude/skills/<name>/SKILL.md`:
   all human-facing text (docs, comments, chat)
 - `.claude/skills/do-next/SKILL.md` — notes this repo's do-not-develop status before any
   `NEXT.md`-driven dispatch
+- `.claude/skills/orient-submit/SKILL.md` — read before working in `../submit.diyaccounting.co.uk`: the submission app, the board in `NEXT.md` and the `PLAN_*.md` files, the deploy and test rules; invoke as `/orient-submit`
+- `.claude/skills/orient-spreadsheets/SKILL.md` — read before working in `../spreadsheets.diyaccounting.co.uk`: the package pipeline, the reconciliation method, the `npm test` router and the pre-push hook, the `CONTEXT_*.md` product docs; invoke as `/orient-spreadsheets`
+- `.claude/skills/orient-www/SKILL.md` — read before working in `../www.diyaccounting.co.uk`: the gateway static site and its deploy; invoke as `/orient-www`
+- `.claude/skills/orient-root/SKILL.md` — read before working in `../root.diyaccounting.co.uk`: Route53 DNS, the holding page and the failover runbook; invoke as `/orient-root`
+- `.claude/skills/orient-private/SKILL.md` — read before working in `../private.diyaccounting.co.uk`: the private documents repository, which has no CLAUDE.md of its own; invoke as `/orient-private`
+
+## Working in a sibling repository
+
+A session started here that works in another repository of this workspace invokes that repository's `orient-*` skill first, then follows the sibling's own `CLAUDE.md` and skills where they differ from this file. The skills are `orient-submit`, `orient-spreadsheets`, `orient-www`, `orient-root`, `orient-private`.
+
 ## Corpus search (corpus-loom MCP)
 
 The `corpus-loom` MCP tools (`search`, `get_document`, `related_entities`) query one hybrid BM25+semantic index (~48.7k documents) spanning the whole business, not just this repo:
